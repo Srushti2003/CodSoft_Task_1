@@ -1,8 +1,7 @@
-**Titanic Survival Prediction with Random Forest Classifier**
-
+# Titanic Survival Prediction with Random Forest Classifier
 This project is part of my CodSoft internship, where I worked on predicting the survival of passengers aboard the Titanic using machine learning techniques. The dataset provides information such as passenger class, gender, age, ticket details, and more, and the goal is to predict whether a passenger survived based on these features.
 
-**Project Overview**
+## Project Overview
 The project focuses on:
   Data Cleaning and Preprocessing: Handling missing values, dropping irrelevant columns, and encoding categorical variables.
   Exploratory Data Analysis: Visualizing relationships between features (e.g., survival rates based on gender and class).
@@ -10,7 +9,7 @@ The project focuses on:
   Model Building: Applying a Random Forest Classifier to predict survival.
   Model Evaluation: Measuring accuracy, generating a confusion matrix, and producing a classification report.
 
-**Steps Involved**
+## Steps Involved
   Data Loading: Loaded the Titanic dataset using Pandas.
   Data Cleaning:
     Imputed missing values in the 'Age' column with the median.
@@ -26,11 +25,11 @@ The project focuses on:
     Visualized the confusion matrix using a heatmap.
     Generated a detailed classification report.
 
-**Technologies Used**
+## Technologies Used
   Python: For data manipulation, preprocessing, and model building.
   Pandas: For data handling.
   Seaborn/Matplotlib: For visualizing the data.
   Scikit-learn: For machine learning algorithms and evaluation metrics.
 
-**Results**
+## Results
   The model provided accurate predictions of passenger survival and demonstrated the power of Random Forest in classification problems. This project helped deepen my understanding of data preprocessing, feature engineering, and model evaluation techniques.
